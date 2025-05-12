@@ -42,7 +42,7 @@ class CreateAdvertActivity : AppCompatActivity() {
 
         // ✅ Initialize Places with your new API key
         if (!Places.isInitialized()) {
-            Places.initialize(applicationContext, "AIzaSyDwDW69B4fqbe8sJx1Dz7SuZqtzIA6SAsY")
+            Places.initialize(applicationContext, "API_KEY")
         }
 
         // Set up AutocompleteSupportFragment
